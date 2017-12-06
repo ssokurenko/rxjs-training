@@ -6,7 +6,8 @@
   "preview": true,
   "scripts": {
     "start": "webpack-dev-server --watch --inline",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
