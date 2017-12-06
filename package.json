@@ -1,0 +1,31 @@
+{
+  "name": "rxjs-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "preview": true,
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssokurenko/rxjs-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssokurenko/rxjs-training/issues"
+  },
+  "homepage": "https://github.com/ssokurenko/rxjs-training#readme",
+  "dependencies": {
+    "rxjs": "^5.5.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
